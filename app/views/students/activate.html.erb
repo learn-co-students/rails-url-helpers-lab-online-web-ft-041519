@@ -1,0 +1,18 @@
+<%= button_to [:activate, @student] do %>
+  Activate <strong><%= @student.to_s %></strong>
+<% end %>
+"<form method="post" action="/users/:id/activate" class="button_to">
+    <button type="submit">
+      Activate <strong><%= @student.to_s %></strong>
+    </button>
+  </form>"
+
+
+<%= button_to [:activate, @student] do %>
+  Activate <strong><%= @student.to_s %></strong>
+<% end %>
+"<form method="post" action="/users/:id/activate" class="button_to">
+    <button type="submit">
+      Activate <strong><%= @student.to_s %></strong>
+    </button>
+  </form>"
